@@ -1,0 +1,68 @@
+/* General Styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to right, #0f172a, #1e293b); /* Dark gradient background */
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* Heading Styles */
+h1 {
+    font-size: 36px;
+    margin-top: 20px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* List Styling */
+ol {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background: white;
+    color: black;
+    padding: 15px;
+    margin: 10px auto;
+    width: 60%;
+    border-radius: 10px;
+    transition: 0.3s;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+li:hover {
+    background: #4CAF50;
+    color: white;
+}
+
+/* Links Styling */
+a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+li:hover a {
+    color: white;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    li {
+        width: 90%;
+    }
+    h1 {
+        font-size: 28px;
+    }
+    h2 {
+        font-size: 20px;
+    }
+}
